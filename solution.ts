@@ -1,4 +1,4 @@
-//* problem_1
+
 function formatValue(value: string | number | boolean): string | number | boolean{
     if (typeof value === "string") {
         return value.toUpperCase()
@@ -10,7 +10,7 @@ function formatValue(value: string | number | boolean): string | number | boolea
 }
 
 
-//* problem_2
+
 function getLength(value: string | any[]): number{
     if (typeof value === "string") {
         return value.length;
@@ -21,7 +21,7 @@ function getLength(value: string | any[]): number{
 }
 
 
-//* problem_3
+
 class Person {
     name: string;
     age: number;
@@ -40,7 +40,7 @@ const person2 = new Person('Alice', 25);
 
 
 
-//* problem_4
+
 type Item = {
     title: string;
     rating: number;
@@ -56,7 +56,7 @@ const books = [
 ]
 
 
-//* problem_5
+
 type User = {
     id: number;
     name: string;
@@ -75,7 +75,7 @@ const users = [
 ]
 
 
-//* problem_6
+
 interface Book{
     title: string;
     author: string;
@@ -97,7 +97,7 @@ const myBook: Book = {
 printBookDetails(myBook)
 
 
-//* problem_7
+
 function getUniqueValues(arr1: (string | number)[], arr2: (string | number)[]): (string | number)[] {
     const result: (string | number)[] = [];
 
@@ -129,7 +129,7 @@ const array2 = [3, 4, 5, 6, 7];
 
 
 
-//* problem_8
+
 type Product = {
     name: string;
     price: number;

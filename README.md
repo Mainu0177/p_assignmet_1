@@ -15,6 +15,7 @@ type → primitive, union, tuple, function ইত্যাদি সবকিছ
 
 
 2.Explain the difference between any, unknown, and never types in TypeScript.
+
 ১) any — যেকোনো কিছু হতে পারে
 যখন কোনো ভ্যালু কী টাইপ হবে তা জানি না, তখন any ব্যবহার করা হয়।
 downside হলো — TypeScript এর type checking নষ্ট হয়ে যায়।
